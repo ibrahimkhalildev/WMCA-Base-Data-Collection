@@ -16,7 +16,7 @@ namespace WMCA_Base_Data_Collection
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "WMCA", action = "Dashboard", id = UrlParameter.Optional }
             );
         }
     }
