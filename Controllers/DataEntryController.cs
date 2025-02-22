@@ -6,25 +6,21 @@ using System.Web.Mvc;
 
 namespace WMCA_Base_Data_Collection.Controllers
 {
-    public class HomeController : Controller
+    public class DataEntryController : Controller
     {
-        public ActionResult Index()
+        // GET: EntryForm
+        public ActionResult DataOf69Coulmn()
+        {
+            return View();
+        }
+        public ActionResult QuarterInformation()
+        {
+            return View();
+        }
+        public ActionResult Basedata69Column()
         {
             return View();
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

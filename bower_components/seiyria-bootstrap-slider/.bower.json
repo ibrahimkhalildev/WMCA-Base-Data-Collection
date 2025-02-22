@@ -21,7 +21,7 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components"
+    "~/bower_components"
   ],
   "_release": "10.6.2",
   "_resolution": {

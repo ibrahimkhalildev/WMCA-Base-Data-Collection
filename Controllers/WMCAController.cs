@@ -13,5 +13,10 @@ namespace WMCA_Base_Data_Collection.Controllers
         {
             return View();
         }
+        public ActionResult Demo()
+        {
+            return View();
+
+        }
     }
 }

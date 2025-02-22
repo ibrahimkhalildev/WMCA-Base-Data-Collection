@@ -5,7 +5,7 @@
   "ignore": [
     "**/.*",
     "benchmarks",
-    "bower_components",
+    "~/bower_components",
     "meteor",
     "node_modules",
     "scripts",
